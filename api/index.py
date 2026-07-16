@@ -7,14 +7,14 @@ import os
 
 class GameInfo:
     def __init__(self):
-        self.TitleId: str = "13449v"
+        self.TitleId: str = "13449"
         self.SecretKey: str = "NHYJF5FP7SHQKQ1AU55UYPHQQHAZB4WBTJXCOFAJE4KQYSYETU"
         self.DiscordWebhook: str = "https://discord.com/api/webhooks/1526399263406428172/Yr9y364d-Wy8_Ola_nsSvVF9aPba0qg-hEfDN9D1rSaMqO_hBMcL5uWO6QpUVMQ6icmCv"
         self.ChangeGorilla: str = "vitinistufoboy"
 
-        self.ApiKey: str = ""
-        self.ApiKey2: str = ""
-        self.ApiKey3: str = ""
+        self.ApiKey: str = "OC|1184115174791506|72ce9e5acc12fe80f2f492c249eec507"
+        self.ApiKey2: str = "OC|1184115174791506|72ce9e5acc12fe80f2f492c249eec507"
+        self.ApiKey3: str = "OC|1184115174791506|72ce9e5acc12fe80f2f492c249eec507"
 
     def get_auth_headers(self):
         return {"content-type": "application/json", "X-SecretKey": self.SecretKey}
